@@ -1,7 +1,8 @@
 async function languageDetection(client) {
 
     const languageInputArray = [
-        "Ce document est rédigé en Français."
+        "Ce document est rédigé en Français.",
+        "This document is written in English"
     ];
     const languageResult = await client.detectLanguage(languageInputArray);
 
